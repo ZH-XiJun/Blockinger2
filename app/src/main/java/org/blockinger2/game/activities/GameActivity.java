@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentActivity;
+import android.util.Log;
+import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.Window;
 
@@ -25,21 +27,26 @@ public class GameActivity extends FragmentActivity
     private WorkThread mainThread;
     private DefeatDialogFragment dialog;
     private boolean layoutSwap;
+    private boolean softkeys;
 
     public static final int NEW_GAME = 0;
     public static final int RESUME_GAME = 1;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        if (PreferenceManager.getDefaultSharedPreferences(this).getBoolean("pref_layoutswap", false)) {
+        if (PreferenceManager.getDefaultSharedPreferences(this).getBoolean("pref_realkeys", false)) {
+            setContentView(R.layout.activity_game_nokey);
+            softkeys = false;
+        } else if (PreferenceManager.getDefaultSharedPreferences(this).getBoolean("pref_layoutswap", false)) {
             setContentView(R.layout.activity_game_alt);
             layoutSwap = true;
+            softkeys = true;
         } else {
             setContentView(R.layout.activity_game);
             layoutSwap = false;
+            softkeys = true;
         }
 
         /* Read Starting Arguments */
@@ -274,5 +281,43 @@ public class GameActivity extends FragmentActivity
     {
         dialog.setData(score, gameTime, apm);
         dialog.show(getSupportFragmentManager(), "hamster");
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == event.KEYCODE_DPAD_RIGHT) {
+            controls.rightButtonPressed();
+        } else if (keyCode == event.KEYCODE_DPAD_LEFT) {
+            controls.leftButtonPressed();
+        } else if (keyCode == event.KEYCODE_DPAD_DOWN) {
+            controls.downButtonPressed();
+        } else if (keyCode == event.KEYCODE_DPAD_UP) {
+            controls.dropButtonPressed();
+        } else if (keyCode == event.KEYCODE_1) {
+            controls.rotateLeftPressed();
+        } else if (keyCode == event.KEYCODE_3) {
+            controls.rotateRightPressed();
+        }
+
+        return super.onKeyDown(keyCode, event);
+    }
+
+    @Override
+    public boolean onKeyUp(int keyCode, KeyEvent event) {
+        if (keyCode == event.KEYCODE_DPAD_RIGHT) {
+            controls.rightButtonReleased();
+        } else if (keyCode == event.KEYCODE_DPAD_LEFT) {
+            controls.leftButtonReleased();
+        } else if (keyCode == event.KEYCODE_DPAD_DOWN) {
+            controls.downButtonReleased();
+        } else if (keyCode == event.KEYCODE_DPAD_UP) {
+            controls.dropButtonReleased();
+        } else if (keyCode == event.KEYCODE_1) {
+            controls.rotateLeftReleased();
+        } else if (keyCode == event.KEYCODE_3) {
+            controls.rotateRightReleased();
+        }
+
+        return super.onKeyUp(keyCode, event);
     }
 }

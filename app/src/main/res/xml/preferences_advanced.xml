@@ -78,6 +78,13 @@
             android:key="pref_layoutswap"
             android:summary="@string/pref_layoutswap_summary"
             android:title="@string/pref_layoutswap_title" />
+        <CheckBoxPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:key="pref_realkeys"
+            android:summary="@string/pref_realkeys_summary"
+            android:title="@string/pref_realkeys_title" />
 
     </PreferenceCategory>
 

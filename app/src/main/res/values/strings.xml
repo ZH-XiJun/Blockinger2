@@ -31,7 +31,7 @@
     <string name="defeatDialogTitle">Game Over</string>
     <string name="defeatDialogReturn">Back</string>
 
-    <string name="tab">\u0009</string>
+    <string name="tab" translatable="false">\u0009</string>
 
     <string name="anonymous">Anonymous</string>
     <string name="scoreLabel">Score:</string>
@@ -57,7 +57,7 @@
     <string name="pref_popup_title">Pop-Up Text</string>
 
     <string name="pref_rng_title">Piece Generation</string>
-    <string name="pref_rngs_default">sevenbag</string>
+    <string name="pref_rngs_default" translatable="false">sevenbag</string>
     <string name="pref_rng_summary">Choose how the sequence of pieces is generated. 7-Bag-Randomization is highly recommended and is also used in competitive Tetris</string>
     <string-array name="randomizer_preference_array">
         <item>7-Bag-Randomization (default)</item>
@@ -91,11 +91,11 @@
 
     <string name="pref_fpslimittext_summary">The game tries to maintain this frame rate as closely as possible</string>
     <string name="pref_fpslimittext_title">Target FPS</string>
-    <string name="pref_fpslimittext_default">30</string>
+    <string name="pref_fpslimittext_default" translatable="false">30</string>
 
-    <string name="pref_vibDurOffset_summary">Increase this time to compensate for the delay of your phone\'s vibrator. The duration of button vibrations should be adjusted to be just barely noticeable.\nTime in milliseconds</string>
+    <string name="pref_vibDurOffset_summary">Increase this time to compensate for the delay of your phone\'s vibrator. The duration of button vibrations should be adjusted to be just barely noticeable. Time in milliseconds</string>
     <string name="pref_vibDurOffset_title">Button Vibration Duration</string>
-    <string name="pref_vibDurOffset_default">15</string>
+    <string name="pref_vibDurOffset_default" translatable="false">15</string>
 
     <string name="pref_antialiasing_summary">Improves the display quality of text. Disable this for better performance</string>
     <string name="pref_antialiasing_title">Text Anti-Aliasing</string>
@@ -109,9 +109,12 @@
     <string name="pref_layoutswap_summary">Swap the position of soft drop button and hard drop button</string>
     <string name="pref_layoutswap_title">Swap Drop Buttons</string>
 
-    <string name="pref_version_summary">2.0.0\nTouch here to view the public repository of this project</string>
+    <string name="pref_realkeys_summary">Enable physical keyboard support and hide buttons for touching</string>
+    <string name="pref_realkeys_title">Physical keyboard</string>
+
+    <string name="pref_version_summary">2.1.0\nTouch here to view the public repository of this project</string>
     <string name="pref_version_title">Version</string>
-    <string name="repository_url" translatable="false">https://github.com/tasioleiva/Blockinger2</string>
+    <string name="repository_url" translatable="false">https://github.com/ZH-XiJun/Blockinger2</string>
 
     <string name="pref_license_summary">Blockinger is free software: licensed under the GNU General Public License (GPLv3) as published by the Free Software Foundation.\nTouch here to view this license online</string>
     <string name="pref_license_title">License Information</string>
@@ -121,9 +124,9 @@
     <string name="pref_license_music_title">Music Attribution</string>
     <string name="music_url" translatable="false">http://www.pornophonique.de</string>
 
-    <string name="pref_maintainer_summary">Tasio Leiva\nTouch here to contact the maintainer for suggestions, feedback or anything related to this project</string>
+    <string name="pref_maintainer_summary">ZH-XiJun and Tasio Leiva (Stopped contributing)\nTouch here to visit ZH-XiJun\'s Github home page, but I may not be able to maintain this project any longer</string>
     <string name="pref_maintainer_title">Maintainer</string>
-    <string name="pref_maintainer_url" translatable="false">contact@tasioleiva.com</string>
+    <string name="pref_maintainer_url" translatable="false">https://github.com/zh-xijun</string>
 
     <string name="pref_author_summary">Simon Willeke\nTouch here to visit the original repository before it was forked</string>
     <string name="pref_author_title">Author</string>
@@ -131,7 +134,7 @@
 
     <string name="pref_donate_title">Donate</string>
     <string name="pref_donate_summary">If you are grateful for this Software and would like to let the Author benefit as well, you can place a Donation as you like.</string>
-    <string name="donation_url">"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=H6VS9SNRHMJSS"</string>
+    <string name="donation_url" translatable="false">"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=H6VS9SNRHMJSS"</string>
     <string name="donate_button">Go to Paypal</string>
 
 

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">设置</string>
+    <string name="action_backtomain">返回</string>
+    <string name="action_about">关于</string>
+    <string name="action_donate">捐赠</string>
+    <string name="action_help">帮助</string>
+    <string name="startButtonString">开始游戏</string>
+    <string name="resumeButtonString">继续游戏</string>
+    <string name="quitButtonString">退出</string>
+    <string name="pausebutton">暂停</string>
+    <string name="holdbuttonstring">Hold</string>
+    <string name="playerNameInputFieldHint">你的玩家名是？</string>
+    <string name="highscoreListDescription">分数榜</string>
+
+    <string name="startLevelDialogTitle">初始难度</string>
+    <string name="startLevelDialogCancel">取消</string>
+    <string name="startLevelDialogStart">开始游戏！</string>
+
+    <string name="title_activity_help">帮助</string>
+    <string name="score_title">分数</string>
+    <string name="level_title">难度</string>
+    <string name="time_title">时间</string>
+    <string name="apm_title">APM</string>
+    <string name="fps_title">FPS</string>
+
+    <string name="defeatDialogTitle">游戏结束</string>
+    <string name="defeatDialogReturn">返回</string>
+
+    <string name="anonymous">匿名</string>
+    <string name="scoreLabel">分数：</string>
+    <string name="timeLabel">时间：</string>
+    <string name="apmLabel">每分钟总手速：</string>
+    <string name="highscore_title">分数榜</string>
+
+    <string name="musicAuthorNote">pornophonique 音乐制作</string>
+
+    <!-- 偏好设置内字符串 -->
+    <!-- Preference Strings -->
+    <string name="title_activity_settings">设置</string>
+    <string name="title_activity_about">关于</string>
+    <string name="title_activity_donate">捐赠</string>
+
+    <string name="pref_phantom_summary">预览正在控制的方块的落点位置</string>
+    <string name="pref_phantom_title">虚像</string>
+
+    <string name="pref_fps_summary">当前FPS将显示在“APM”下方</string>
+    <string name="pref_fps_title">显示FPS</string>
+
+    <string name="pref_popup_summary">成功消行后会将获得的分数弹出来</string>
+    <string name="pref_popup_title">弹出式文字</string>
+
+    <string name="pref_rng_title">方块生成方式</string>
+    <string name="pref_rng_summary">选择方块的生成方式。强烈推荐7-bag 随机法，其也广泛用于俄罗斯方块竞技</string>
+    <string-array name="randomizer_preference_array">
+        <item>7-Bag 随机法（默认）</item>
+        <item>普通随机法</item>
+    </string-array>
+
+    <string name="softdropspeed_pref_title">软着陆速度</string>
+
+    <string name="movespeed_pref_title">水平移动速度</string>
+
+    <string name="soundvolume_pref_title">音效音量</string>
+
+    <string name="musicvolume_pref_title">背景音乐音量</string>
+
+    <string name="pref_vibration_button_title">按键振动反馈</string>
+    <string name="pref_vibration_button_summary">当你按下游戏中的操作按钮（或物理按键）时会振动反馈</string>
+
+    <string name="pref_vibration_events_title">游戏事件振动</string>
+    <string name="pref_vibration_events_summary">当发生一些游戏事件时振动一下</string>
+
+    <!-- 高级偏好设置内字符串 -->
+    <!-- Advanced Preference Strings -->
+    <string name="pref_button_sound_summary">在你按下按键时给予声音反馈</string>
+    <string name="pref_button_sound_title">按键声</string>
+
+    <string name="pref_fpslimit_summary">能节省电量，但可能会使游戏速度变慢</string>
+    <string name="pref_fpslimit_title">锁帧</string>
+
+    <string name="pref_fpslimittext_summary">游戏将尽可能尝试维持到该帧率</string>
+    <string name="pref_fpslimittext_title">要锁定到的帧率</string>
+
+    <string name="pref_vibDurOffset_summary">增加此时间以补偿振动的延迟。振动反馈的持续时间应调整到几乎不可察觉。以毫秒为单位</string>
+    <string name="pref_vibDurOffset_title">按键振动反馈持续时间</string>
+
+    <string name="pref_antialiasing_summary">提高文本的显示质量。关掉它以获得更佳的性能</string>
+    <string name="pref_antialiasing_title">文本抗锯齿</string>
+
+    <string name="pref_accelerationH_summary">该选项用于调整水平移动中的延迟（按住按键后会先短暂延迟才开始连续移动），对初学者可能有用</string>
+    <string name="pref_accelerationH_title">水平移动加速度</string>
+
+    <string name="pref_accelerationV_summary">该选项用于调整软着陆中的移动延迟，对初学者可能有用</string>
+    <string name="pref_accelerationV_title">Soft Drop Acceleration</string>
+
+    <string name="pref_layoutswap_summary">Swap the position of soft drop button and hard drop button</string>
+    <string name="pref_layoutswap_title">Swap Drop Buttons</string>
+
+    <string name="pref_realkeys_summary">启用物理键盘并隐藏触摸按键</string>
+    <string name="pref_realkeys_title">物理键盘</string>
+
+    <string name="pref_version_summary">2.1.0\n点此以查看该程序的开源仓库</string>
+    <string name="pref_version_title">版本</string>
+
+    <string name="pref_license_summary">Blockinger是自由软件：使用自由软件基金会发布的GNU通用公共许可证（GPLv3）作为开源许可。\n点击此处在线查看此许可</string>
+    <string name="pref_license_title">许可详情</string>
+
+    <string name="pref_license_music_summary">“lemmings in love (karaoke)”与“sad robot (karaoke)”由Pornophonique作曲，使用CC BY-NC-SA 3.0 DE许可。\n点击此处打开该艺术家的网站</string>
+    <string name="pref_license_music_title">背景音乐来源</string>
+
+    <string name="pref_maintainer_summary">ZH-XiJun和Tasio Leiva（已停止维护）\n点此进入ZH-XiJun的Github主页，但我大概率也不会再继续维护该项目</string>
+    <string name="pref_maintainer_title">维护者</string>
+
+    <string name="pref_author_summary">Simon Willeke\n点此访问最原始的仓库</string>
+    <string name="pref_author_title">原作者</string>
+
+    <string name="pref_donate_title">捐赠</string>
+    <string name="pref_donate_summary">鬼知道这是谁的，但我懒得删了</string>
+    <string name="donate_button">前往Paypal</string>
+
+
+    <string name="pref_category_sound">声音</string>
+    <string name="pref_category_vibration">振动</string>
+    <string name="pref_category_other">其它</string>
+    <string name="pref_category_advanced">高级设置</string>
+    <string name="pref_category_layout">按键布局</string>
+
+    <!-- 帮助页面内字符串 -->
+    <!-- Help Menu Strings -->
+    <string name="pref_help_scoring_title">积分</string>
+    <string name="pref_help_scoring_summary">游戏是如何计分的？</string>
+    <string name="pref_help_scoring_message">以消行数为条件计算的基础得分规则有：\n1行100分\n2行300分\n3行500分\n4行800分（被称为“Tetris”）\n\n若连续“Tetris”，每一个Tetris将提供400分额外分\n另外，玩家使用软着陆和硬着陆也会获得不同量的额外分数，软着陆每次1分，硬着陆每次2分.</string>
+
+    <string name="pref_help_levels_title">难度</string>
+    <string name="pref_help_levels_summary">难度具体是如何体现的？</string>
+    <string name="pref_help_levels_message">每增加一级难度，方块自由落体的速度就会增加10%\n在游戏中，每消满十行难度便会增加一级</string>
+
+    <string name="pref_help_vibration_title">振动</string>
+    <string name="pref_help_vibration_summary">如何实现最佳的振动反馈？</string>
+    <string name="pref_help_vibration_message">一些设备上的振动马达可能会出现功能问题\n部分设备可能根本就没有振动\n如果你的设备确实有振动，但你感觉不到，请调整高级设置中的“按键振动反馈持续时间”\n振动反馈的持续时间应调整到几乎不可察觉</string>
+
+    <string name="pref_help_apm_title">APM</string>
+    <string name="pref_help_apm_summary">APM是什么意思？</string>
+    <string name="pref_help_apm_message">APM全称“Actions Per Minute”，用于表示玩家的手速</string>
+
+    <string name="pref_help_fps_title">FPS</string>
+    <string name="pref_help_fps_summary">FPS是什么意思？有什么用？</string>
+    <string name="pref_help_fps_message">FPS全称“Frames Per Second”，用于表示画面更新的速度\n低FPS时，能明显察觉到游戏反应迟钝和动画不丝滑，而高FPS会导致更多的电量消耗。\n25~35FPS是显示效果和电量消耗之间的平衡点，较为适宜\n你可以在高级设置中调整帧率</string>
+
+    <string name="pref_help_randomizer_title">随机生成器</string>
+    <string name="pref_help_randomizer_summary">这两种生成方式有何不同？（可在高级设置中找到）</string>
+    <string name="pref_help_randomizer_message">7-Bag生成法：\n生成含有7个方块的随机包（bag）并打乱顺序放出。这意味着，玩家永远不会连续遇到3个相同的方块。\n\n普通随机：\n每个方块都将是自由生成，不受束缚</string>
+
+    <string name="pref_help_resumability_title">暂停</string>
+    <string name="pref_help_resumability_summary">在什么情况下中断的游戏可以恢复？</string>
+    <string name="pref_help_resumability_message">当你点下“暂停”或安卓的返回键而退出游戏时，游戏可以恢复\n如果玩家只是切换到了另一个App或返回主界面而不是直接退出该游戏时，游戏可以恢复\n如果你完全退出了App，游戏将不能恢复</string>
+
+</resources>
