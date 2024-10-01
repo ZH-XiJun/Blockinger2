@@ -18,6 +18,8 @@ Official hard fork from the now unmaintained [vocollapse's Blockinger.](https://
 1.0.0: The first version of Blockinger by vocollapse.
 ```
 
+# Help of the game
+
 ## Scoring
 
 Basic points per cleared line are:
