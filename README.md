@@ -1,9 +1,22 @@
 Blockinger 2
 ============
 
-Free classic Tetris® clone for Android, originally developed by Simon Willeke and currently maintained by Tasio Leiva.
+Free classic Tetris® clone for Android, originally developed by Simon Willeke and currently maintained by ZH-XiJun.
+
+Tasio Leiva's [Blockinger2](https://github.com/yanshoutong/Blockinger2) fork
 
 Official hard fork from the now unmaintained [vocollapse's Blockinger.](https://github.com/vocollapse/Blockinger)
+
+# Changelog
+```
+2.1.0: My(ZH-XiJun's) fork is here, added some new features:
+- Added physical keyboard support since I have an Android keyphone without a touch screen.
+- Added Simplified Chinese support since I'm a Chinese!
+
+2.0.0: Tasio Leiva's Blockinger2 fork, converted eclipce project to gradle project.
+
+1.0.0: The first version of Blockinger by vocollapse.
+```
 
 ## Scoring
 
